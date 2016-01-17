@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.25em;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue Bold.otf') format('opentype');
+}
+
+.controls {
+  position: absolute;
+  padding: 15px 10px;
+  bottom: 0;
+  z-index: 999;
+}
+
+.controls button {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  padding: 0 10px;
+  z-index: 999;
+}
+
+.fa {
+  font-size: 3em;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.fa:hover {
+  opacity: 1;
+}
+
+html { 
+  background-color: #333; 
+}
+
+section {
+  background: #333 no-repeat center center fixed;
+  position: absolute;
+  font-family: 'BebasNeue', Impact, sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0;
+}
+
+section.active {
+  opacity: 1;
+}
+
+section a {
+  color: #fff;
+  text-align: right;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  z-index: 99;
+  opacity: 0.75;
+}
+
+section a:hover {
+  opacity: 1;
+}
+
+section img {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+}
+
+.section-bg {
+  background-color: #333;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";     /*Best for Internet Explorer 8 */
+  filter: alpha(opacity=50);    /*Internet Explorer 5, 6, 7, 8 */
+  -moz-opacity: 0.5;    /* Old Mozilla Browsers */
+  -webkit-opacity: 0.5;    /* Old Webkit browsers (Safari, Chrome, various others) */
+  opacity: 0.5;    /* Modern browsers */
+  border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  .fa {
+    font-size: 2.5em;
+  }
+  .controls {
+    position: static;
+  }
+  .controls button {
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+  }
+  .previous-arrow {
+    left: 0;
+  }
+  .next-arrow {
+    right: 0;
+  }
+  section a {
+    bottom: 10px;
+    right: 10px;
+  }
+}
