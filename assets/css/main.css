@@ -100,7 +100,7 @@ html {
   background-color: #333; 
 }
 
-section {
+li {
   background: #333 no-repeat center center fixed;
   position: absolute;
   font-family: 'BebasNeue', Impact, sans-serif;
@@ -120,11 +120,11 @@ section {
   opacity: 0;
 }
 
-section.active {
+li.active {
   opacity: 1;
 }
 
-section a {
+li a {
   color: #fff;
   text-align: right;
   position: absolute;
@@ -138,11 +138,11 @@ section a {
   opacity: 0.75;
 }
 
-section a:hover {
+li a:hover {
   opacity: 1;
 }
 
-section img {
+li img {
   position: absolute;
   top: -99999px;
   left: -99999px;
