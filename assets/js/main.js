@@ -148,6 +148,12 @@ let IMAGES = [
     locationUrl: 'https://www.google.com/maps/place/Chidori-ga-fuchi/@35.6906112,139.7443655,17z',
     title: 'Tokyo, Japan',
     subTitle: 'Chidorigafuchi'
+  },
+  {
+    imageUrl: 'img/arches_utah_delicate_arch.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Delicate+Arch/@38.7446115,-109.5034007,16z',
+    title: 'Arches National Park, Utah',
+    subTitle: 'Delicate Arch'
   }
 ];
 
