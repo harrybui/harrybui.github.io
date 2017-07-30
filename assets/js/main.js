@@ -154,6 +154,12 @@ let IMAGES = [
     locationUrl: 'https://www.google.com/maps/place/Delicate+Arch/@38.7446115,-109.5034007,16z',
     title: 'Arches National Park, Utah',
     subTitle: 'Delicate Arch'
+  },
+  {
+    imageUrl: 'img/canyonlands_utah_mesa_arch.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Mesa+Arch/@38.388007,-109.8657428,17z',
+    title: 'Canyonlands National Park, Utah',
+    subTitle: 'Mesa Arch'
   }
 ];
 
