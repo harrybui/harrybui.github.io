@@ -208,6 +208,12 @@ let IMAGES = [
     locationUrl: 'https://www.google.com/maps/place/Manzanita+Lake,+CA/@40.5285738,-121.5561389,15z',
     title: 'Lassen National Park, California',
     subTitle: 'Manzanita Lake'
+  },
+  {
+    imageUrl: 'img/san_marino_california_huntington_library.jpg',
+    locationUrl: 'https://www.google.com/maps/place/The+Huntington+Library,+Art+Collections,+and+Botanical+Gardens/@34.1290496,-118.1167129,17z',
+    title: 'San Marino, California',
+    subTitle: 'Huntington Library'
   }
 ];
 
