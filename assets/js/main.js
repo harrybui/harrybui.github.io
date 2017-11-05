@@ -160,6 +160,54 @@ let IMAGES = [
     locationUrl: 'https://www.google.com/maps/place/Mesa+Arch/@38.388007,-109.8657428,17z',
     title: 'Canyonlands National Park, Utah',
     subTitle: 'Mesa Arch'
+  },
+  {
+    imageUrl: 'img/grand_canyon_arizona_milky_way_galaxy.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Grand+Canyon+National+Park/@36.0911048,-113.4035427,9z',
+    title: 'Grand Canyon National Park, Arizona',
+    subTitle: 'Milky Way Galaxy'
+  },
+  {
+    imageUrl: 'img/supai_arizona_havasu_falls.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Havasu+Falls/@36.2552001,-112.7000617,17z',
+    title: 'Supai, Arizona',
+    subTitle: 'Havasu Falls'
+  },
+  {
+    imageUrl: 'img/redwood_national_park_lady_bird_johnson_grove.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Lady+Bird+Johnson+Grove+Trail/@41.3034279,-124.0203231,17z',
+    title: 'Redwood National Park, California',
+    subTitle: 'Lady Bird Johnson Grove'
+  },
+  {
+    imageUrl: 'img/humboldt_redwoods_state_park_avenue_of_giants.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Avenue+of+the+Giants,+California/@40.3081995,-123.9110753,17z',
+    title: 'Homboldt Redwoods State Park',
+    subTitle: 'Avenue of Giants'
+  },
+  {
+    imageUrl: 'img/crater_lake_oregon.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Crater+Lake+National+Park/@42.9360139,-122.2756401,11z',
+    title: 'Crater Lake National Park, Oregon',
+    subTitle: ''
+  },
+  {
+    imageUrl: 'img/dunsmuir_california_mossbrae_falls.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Mossbrae+Falls/@41.2417603,-122.2757105,15z',
+    title: 'Dunsmuir, California',
+    subTitle: 'Mossbrae Falls'
+  },
+  {
+    imageUrl: 'img/mcarthur_burney_falls_state_park_burney_falls.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Burney+Falls/@41.0107315,-121.6615197,15z',
+    title: 'McAuthur-Burney Falls State Park, California',
+    subTitle: 'Burney Falls'
+  },
+  {
+    imageUrl: 'img/lassen_national_park_california_manzanita_lake.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Manzanita+Lake,+CA/@40.5285738,-121.5561389,15z',
+    title: 'Lassen National Park, California',
+    subTitle: 'Manzanita Lake'
   }
 ];
 
