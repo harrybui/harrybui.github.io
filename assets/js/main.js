@@ -214,6 +214,18 @@ let IMAGES = [
     locationUrl: 'https://www.google.com/maps/place/The+Huntington+Library,+Art+Collections,+and+Botanical+Gardens/@34.1290496,-118.1167129,17z',
     title: 'San Marino, California',
     subTitle: 'Huntington Library'
+  },
+  {
+    imageUrl: 'img/barcelona_spain_casa_mila.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Casa+Milà/@41.3953805,2.1597727,17z',
+    title: 'Barcelona, Spain',
+    subTitle: 'Casa Mila'
+  },
+  {
+    imageUrl: 'img/sintra_portugal_pena_palace.jpg',
+    locationUrl: 'https://www.google.com/maps/place/The+Huntington+Library,+Art+Collections,+and+Botanical+Gardens/@34.1290496,-118.1167129,17z',
+    title: 'Sintra, Portugal',
+    subTitle: 'Pena Palace'
   }
 ];
 
