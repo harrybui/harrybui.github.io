@@ -235,6 +235,8 @@ $(function () {
   
   let template;
 
+  let xDown;
+
   const LEFT_KEYPRESS = 37, RIGHT_KEYPRESS = 39;
   const CYCLE_INTERVAL_MS = 20000;
 
@@ -332,6 +334,23 @@ $(function () {
         prevBg();
       } else if (e.keyCode === RIGHT_KEYPRESS) {
         nextBg();
+      }
+    });
+
+    $html.on('touchstart', function (e) {
+      const touch = e.touches[0];
+      xDown = touch.clientX;
+    });
+
+    $html.on('touchend', function (e) {
+      const touch = e.changedTouches[0];
+      const SWIPE_THRESHOLD = 10;
+      const xUp = touch.clientX;
+      const xDiff = xUp - xDown;
+      if (xDiff > SWIPE_THRESHOLD) {
+        nextBg();
+      } else if (xDiff < -SWIPE_THRESHOLD) {
+        prevBg();
       }
     });
 
