@@ -334,6 +334,8 @@ $(function () {
         prevBg();
       } else if (e.keyCode === RIGHT_KEYPRESS) {
         nextBg();
+      } else {
+        nextBg();
       }
     });
 
