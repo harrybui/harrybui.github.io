@@ -226,6 +226,18 @@ let IMAGES = [
     locationUrl: 'https://www.google.com/maps/place/The+Huntington+Library,+Art+Collections,+and+Botanical+Gardens/@34.1290496,-118.1167129,17z',
     title: 'Sintra, Portugal',
     subTitle: 'Pena Palace'
+  },
+  {
+    imageUrl: 'img/yosemite_california_valley_view.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Half+dome+view/@37.7893558,-119.6924629,12z',
+    title: 'Yosemite, California',
+    subTitle: 'Valley View'
+  },
+  {
+    imageUrl: 'img/sintra_portugal_initiation_well.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Quinta+da+Regaleira/@38.7963069,-9.3982184,17z',
+    title: 'Sintra, Portugal',
+    subTitle: 'Initiation Well'
   }
 ];
 
