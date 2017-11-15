@@ -238,6 +238,12 @@ let IMAGES = [
     locationUrl: 'https://www.google.com/maps/place/Quinta+da+Regaleira/@38.7963069,-9.3982184,17z',
     title: 'Sintra, Portugal',
     subTitle: 'Initiation Well'
+  },
+  {
+    imageUrl: 'img/supai_arizona_mooney_falls.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Mooney+Falls/@36.2631536,-112.7105963,17z',
+    title: 'Supai, Arizona',
+    subTitle: 'Mooney Falls'
   }
 ];
 
