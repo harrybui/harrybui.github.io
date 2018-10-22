@@ -244,13 +244,19 @@ let IMAGES = [
     locationUrl: 'https://www.google.com/maps/place/Mooney+Falls/@36.2631536,-112.7105963,17z',
     title: 'Supai, Arizona',
     subTitle: 'Mooney Falls'
+  },
+  {
+    imageUrl: 'img/lavaux_switzerland_vineyards.jpg',
+    locationUrl: 'https://www.google.com/maps/place/Bourg-en-Lavaux,+Switzerland/@46.4813152,6.6916652,13z/',
+    title: 'Lavaux, Switzerland',
+    subTitle: 'Vineyards of Lavaux'
   }
 ];
 
 $(function () {
 
   let $images, $activeImage, $html, $previous, $next, currentBgIdx = 0, lazyNextBg, ayncImgLoaded;
-  
+
   let template;
 
   let xDown;
@@ -290,7 +296,7 @@ $(function () {
       $activeImage.removeClass('active');
     }
     $activeImage = $image;
-    
+
     currentBgIdx = index;
     lazyNextBg();
 
